@@ -58,7 +58,7 @@ This repository contains the Python simulation & model code and an R Shiny front
 - Ivory_Coast.txt, Morocco.txt, Nigeria.txt, Senegal.txt, Egypt.txt — small team description files used by the app
 
 ## Notes / maintenance suggestions
-- Duplicate file: `app_24.R` appears to be a near-identical copy of `app24.R`. Consider removing it from the repository to avoid confusion during deployment.
+- Duplicate file: `app_24.R` is a near-identical copy of `app24.R`. Consider removing it from the repository to avoid confusion during deployment.
 - Model persistence: currently `afcon_simulation_f4.py` retrains or uses training CSV each run — consider training once and saving a serialized model (joblib/pickle) so the Shiny app runs faster.
 - Assets: the app expects a `www/` folder with images (civ.jpg, mrc.jpeg, etc.). Keep these assets under `www/` so Shiny serves them correctly.
 - Environment reproducibility: `environment.yml` is provided for conda users to create a reproducible Python environment.
