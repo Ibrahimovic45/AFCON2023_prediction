@@ -1,0 +1,20 @@
+name: env-reticulate
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - scikit-learn
+  - networkx
+  - matplotlib
+  - seaborn
+  - pygraphviz
+  - graphviz
+  - pip:
+    - pandas
+    - scikit-learn
+    - networkx
+    - matplotlib
+    - seaborn
+    - pygraphviz
