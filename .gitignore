@@ -1,0 +1,20 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+env-reticulate/
+model_gb.joblib
+
+# Shiny / app
+www/*.png
+www/*.jpg
+www/*.jpeg
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
